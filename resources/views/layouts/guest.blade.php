@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', 'Bookings') }}</title>
+    <title>{{ config('app.name', 'CasaLao') }}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@
                     <path d="M34 4V12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
                     <path d="M16 29L21 34L32 23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                <span class="text-xl font-semibold text-white">Bookings</span>
+                <span class="text-xl font-semibold text-white">Casa<span class="text-amber-400">Lao</span></span>
             </a>
 
             <div class="relative z-10">
